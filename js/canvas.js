@@ -22,19 +22,19 @@ imagenes[15] = "/img/8-b.jpg";
 function dibujarCanvas(){
 	var canvas = document.getElementById('miCanvas');
 	var ctx = canvas.getContext('2d');
-}
-    for (var x=0; x<=500; x=x+125){
+
+    for (var x=0; x<=500; x=x+75){
       ctx.moveTo(x,0);
       ctx.lineTo(x,500);
     }
 
-    for (var y=0; y<=500; y=y+125){
+    for (var y=0; y<=500; y=y+38){
       ctx.moveTo(0,y);
       ctx.lineTo(500,y);
     }
 
-    ctx.strokeStyle = "#f00";
+    ctx.strokeStyle = "black";
     ctx.stroke();
-
+}
 
 
